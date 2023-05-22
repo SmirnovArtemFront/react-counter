@@ -3,7 +3,7 @@ import "./index.scss";
 import { Success } from "./components/Success";
 import { Users } from "./components/Users";
 
-//список пользователей: https://reqres.in/api/users
+// пользователи: https://reqres.in/api/users
 
 function App() {
   const [users, setUsers] = React.useState([]);
